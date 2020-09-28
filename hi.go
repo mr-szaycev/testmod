@@ -9,5 +9,5 @@ func Hi(name string) string {
 
 // By returns a bed girl
 func ByBy(name string) string {
-   return fmt.Sprintf("By fack !!!, #{name}")
+   return fmt.Sprintf("By fack !!!, %s", name)
 }
